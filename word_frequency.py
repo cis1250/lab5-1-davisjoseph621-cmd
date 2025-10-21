@@ -24,3 +24,10 @@ def is_sentence(text):
         return False
 
     return True
+
+calculate_frequencies():
+    while (is_sentence(u_sentence) == false):
+        u_sentence = input('Enter valid input: ')
+    u_senctence.split()
+    
+    
