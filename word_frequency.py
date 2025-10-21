@@ -25,9 +25,27 @@ def is_sentence(text):
 
     return True
 
-calculate_frequencies():
-    while (is_sentence(u_sentence) == false):
-        u_sentence = input('Enter valid input: ')
-    u_senctence.split()
+
+
+def sentence():
+    u_sentence =''
+    while (is_sentence(u_sentence) == False):
+        u_sentence = input('Enter valid sentence ')
+    
+    words = u_sentence.split()
+    word = []
+    frequency = []
+    #word.append(u_sentence.split())
+    for i in range(len(words)):
+        if check(word, words[i]):
+            frequency[i] += 1
+        else: 
+            word.append(words[i])
+            frequency.append(1)
+        
+    print (words)
+    print (frequency)
+    
+sentence()
     
     
