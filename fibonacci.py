@@ -28,8 +28,5 @@ def fibonacci(x):
     return fib_seq
 
 #print
-def print(x):
-  print()
-
 print(fibonacci(userin()))
 
